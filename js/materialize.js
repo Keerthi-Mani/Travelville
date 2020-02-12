@@ -31,3 +31,7 @@ M.Autocomplete.init(autoComplete, {
     India: null
   }
 });
+
+// Material Boxed
+const materialBoxed = document.querySelectorAll(".materialboxed");
+M.Materialbox.init(materialBoxed, {});
