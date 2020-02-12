@@ -26,6 +26,7 @@ M.Autocomplete.init(autoComplete, {
     California: null,
     Jamacia: null,
     Europe: null,
+    "The Bahamas": null,
     China: null,
     India: null
   }
