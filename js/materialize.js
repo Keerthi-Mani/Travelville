@@ -12,5 +12,21 @@ M.Slider.init(slider, {
 });
 
 // Scrollspy
-const ss = document.querySelectorAll(".scrollspy");
-M.ScrollSpy.init(ss, {});
+const ScrollSpy = document.querySelectorAll(".scrollspy");
+M.ScrollSpy.init(ScrollSpy, {});
+
+//Autocomplete
+const autoComplete = document.querySelector(".autocomplete");
+M.Autocomplete.init(autoComplete, {
+  data: {
+    Aruba: null,
+    "Cancun Mexico": null,
+    Hawaii: null,
+    Florida: null,
+    California: null,
+    Jamacia: null,
+    Europe: null,
+    China: null,
+    India: null
+  }
+});
