@@ -10,3 +10,7 @@ M.Slider.init(slider, {
   height: 500,
   interval: 6000
 });
+
+// Scrollspy
+const ss = document.querySelectorAll(".scrollspy");
+M.ScrollSpy.init(ss, {});
